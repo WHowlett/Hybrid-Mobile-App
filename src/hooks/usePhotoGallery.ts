@@ -3,7 +3,7 @@ import { isPlatform } from '@ionic/react';
 
 import { Camera, CameraResultType, CameraSource, Photo } from '@capacitor/camera';
 import { Filesystem, Directory } from '@capacitor/filesystem';
-import { Storage } from '@capacitor/storage';
+import { Storage } from '@capacitor/storage'; //ignore error code - still works
 import { Capacitor } from '@capacitor/core';
 
 const PHOTO_STORAGE = 'photos';
